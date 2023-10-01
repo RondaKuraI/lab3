@@ -95,13 +95,13 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>ID</td>
-                                                <td>Name</td>
-                                                <td>Description</td>
-                                                <td>Image</td>
-                                                <td>Price</td>
-                                                <td>Category</td>
-                                                <td>Quantity</td>
+                                                <td>1</td>
+                                                <td>JJK</td>
+                                                <td>jujustu sorcerers</td>
+                                                <td>jjk.png</td>
+                                                <td>P550.50</td>
+                                                <td>Action</td>
+                                                <td>50</td>
                                                 <td><a href="#" class="btn btn-success">Edit</a></td>
                                                 <td><a href="#" class="btn btn-danger">Delete</a></td>
                                             </tr>
