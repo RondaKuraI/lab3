@@ -23,19 +23,45 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Products</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <form action="" method="POST">
+                            <form action="code.php" method="POST">
                                 <div class="modal-body">
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter name of product" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Description</label>
+                                        <input type="text" class="form-control" placeholder="Enter description" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Upload Image</label>
+                                        <input type="file" name="product_image" id="product_image" class="form-control" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Price</label>
+                                        <input type="text" class="form-control" placeholder="Enter price" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Category</label>
+                                        <input type="text" class="form-control" placeholder="Enter category" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input type="text" class="form-control" placeholder="Enter quantity" required>
                                     </div>
                                 </div>
+
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </form>
                             </div>
