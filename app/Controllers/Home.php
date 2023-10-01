@@ -8,7 +8,12 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    
     public function ecommerce(){
         return view('ecommerce');
+    }
+
+    public function crudproduct(){
+        return view('admin/crudproduct');
     }
 }
